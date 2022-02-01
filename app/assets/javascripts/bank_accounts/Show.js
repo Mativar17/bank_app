@@ -53,5 +53,5 @@ var Show = (function(){
      
     return {
         init: init
-    };
+    }; 
 })();
