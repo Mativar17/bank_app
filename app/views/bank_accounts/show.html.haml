@@ -37,6 +37,9 @@
                     New Transaction
             .modal-body
                 .row 
+                    .col-md-12
+                        .notification
+                .row 
                     .col-md-6
                         %label
                             Amount
@@ -53,7 +56,7 @@
 
 = javascript_include_tag "bank_accounts/Show"
 :javascript
-    $(document).ready(function()){
+    $(document).ready(function(){
         Show.init();
     });
           
